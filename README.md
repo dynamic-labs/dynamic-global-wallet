@@ -83,7 +83,7 @@ After configuring your wallet package, test it locally using a Wallet SDK of you
 
    - For **Solana Wallet**:
      ```javascript
-     import "<wallet-package-name>/solana-standard";
+     import "<wallet-package-name>/solana";
      ```
 
 6. **Use Your Wallet**
