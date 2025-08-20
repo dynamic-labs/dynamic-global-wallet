@@ -78,12 +78,12 @@ After configuring your wallet package, test it locally using a Wallet SDK of you
    - For **EVM Wallet**:
 
      ```javascript
-     import "<wallet-package-name>/eip6963";
+     import "<wallet-package-name>/ethereum";
      ```
 
    - For **Solana Wallet**:
      ```javascript
-     import "<wallet-package-name>/solana-standard";
+     import "<wallet-package-name>/solana";
      ```
 
 6. **Use Your Wallet**

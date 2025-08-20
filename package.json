@@ -24,11 +24,13 @@
     "typescript": "^5.7.3"
   },
   "peerDependencies": {
+    "@dynamic-labs/ethereum-aa": "^4.15.0",
     "@solana/wallet-standard-features": "^1.2.0",
     "@solana/web3.js": "^1.92.1",
     "@wallet-standard/base": "^1.0.1",
     "@wallet-standard/features": "^1.0.3",
     "@wallet-standard/wallet": "^1.1.0",
+    "@zerodev/sdk": "5.4.36",
     "viem": "^2.7.12"
   },
   "peerDependenciesMeta": {
@@ -48,6 +50,12 @@
       "optional": true
     },
     "@wallet-standard/wallet": {
+      "optional": true
+    },
+    "@zerodev/sdk": {
+      "optional": true
+    },
+    "@dynamic-labs/ethereum-aa": {
       "optional": true
     }
   },
@@ -76,6 +84,11 @@
       "types": "./dist/types/solana.d.ts",
       "import": "./dist/esm/solana.js",
       "default": "./dist/cjs/solana.js"
+    },
+    "./zerodev": {
+      "types": "./dist/types/zerodev.d.ts",
+      "import": "./dist/esm/zerodev.js",
+      "default": "./dist/cjs/zerodev.js"
     }
   }
 }
